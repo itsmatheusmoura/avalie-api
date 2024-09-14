@@ -17,8 +17,12 @@ static/
 *.py[cod]
 
 # Diretórios de ambiente virtual
-venv/
+avalieapi/venv/
+avalieapi/env/
+
 .env/
+/env/
+venv/
 
 # Diretórios de build e testes
 build/
