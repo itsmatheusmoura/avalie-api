@@ -1,0 +1,45 @@
+# Arquivos e diretórios do Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+static/
+
+# Arquivos de configuração
+*.env
+*.local
+
+# Diretórios de cache
+*.cache
+*.py[cod]
+
+# Diretórios de ambiente virtual
+venv/
+.env/
+
+# Diretórios de build e testes
+build/
+dist/
+*.egg-info/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Python
+*.pyd
+
+# Arquivos de dependências
+Pipfile.lock
+requirements.txt
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
