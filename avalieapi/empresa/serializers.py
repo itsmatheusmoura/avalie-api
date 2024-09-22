@@ -23,7 +23,7 @@ class EmpresaSerializer(serializers.ModelSerializer):
 class PerguntaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pergunta
-        fields = ['descricao', 'empresa']
+        fields = ['id', 'descricao', 'empresa']
 
 class AvaliacaoSerializer(serializers.ModelSerializer):
     class Meta:

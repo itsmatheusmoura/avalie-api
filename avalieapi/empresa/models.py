@@ -36,9 +36,8 @@ class Avaliacao(Entidade):
     resposta = models.IntegerField(
         validators=[MinValueValidator(0), MaxValueValidator(10)]
     )
-    empresa = models.ForeignKey(Empresa, on_delete=models.CASCADE)
     comentario = models.TextField(blank=True, null=True)
     data = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.resposta
+        return str(self.resposta)
